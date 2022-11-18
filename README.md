@@ -27,7 +27,11 @@ To install the applicatioin on a device it requires a chromium based browser suc
 
 ## :trophy: Badges
 
+<<<<<<< HEAD
 ![badmath](https://img.shields.io/github/languages/top/bordanattila/text-editor)
+=======
+![badmath](https://img.shields.io/github/languages/top/bordanattila/text-editor)  
+>>>>>>> bc4b594920b4cfea040ad8dfa1c54d422c888029
 ![Repo size badge](https://img.shields.io/github/repo-size/bordanattila/text-editor?color=information)
 
 ## Features
@@ -50,5 +54,5 @@ The technologies that made this possible are:
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 ## Questions
-  [My GitHub Profile](https://github.com/attila)
+  [My GitHub Profile](https://github.com/attila)  
   [Heroku](https://)
