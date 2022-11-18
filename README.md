@@ -43,7 +43,7 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## :trophy: Badges
 
-![badmath](https://img.shields.io/github/languages/top/bordanattila/badmath)
+![badmath](https://img.shields.io/github/languages/top/bordanattila/text-editor)
 ![Repo size badge](https://img.shields.io/github/repo-size/bordanattila/text-editor?color=information)
 [![Bintray](https://img.shields.io/bintray/v/asciidoctor/maven/asciidoctorj.svg?maxAge=2592000)](https://bintray.com/asciidoctor/maven/asciidoctorj)
 
