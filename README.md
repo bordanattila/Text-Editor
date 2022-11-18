@@ -1,142 +1,78 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# PWA Text editor
 
-## Your Task
+## Description
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+This is just a simple text editor where the user can take notes. the good part of it is that it is progressive web application (PWA). It can be installed on devices and used in offline mode as well. It is particularly useful for those that prepare for interviews in the tech industry. It colour codes code snippets and adds indentation when writing a function. It is very helpful when one is trying pseudocoding. No need to comment out lines and the text is more readable with the indentations. 
+This app can help others like me who are trying to sharpen their skills but not always have access to an IDE or when an idea pops up in their head and need to write it down quickly for later use. 
+Building this application helped me to understand the purpose and usage of service workers and manifest. It allowed me to see how an application is turned into a PWA. 
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+## Table of Contents (Optional)
 
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## User Story
+## Installation
 
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
+To install the applicatioin on a device it requires a chromium based browser such as Google Chrome, Microsoft Edge, or Opera. In any of these browsers clicking the `Install` button or the install icon in the address bar will install the application on the device. 
+![Install](./assets/screenshot.png)
 
-## Acceptance Criteria
+## Usage
 
-```md
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
-```
+![alt text](./assets/images/screenshot.png)
+![alt text](./assets/images/screenshot.png)
 
-## Mock-Up
+## Credits
 
-The following animation demonstrates the application functionality:
+List your collaborators, if any, with links to their GitHub profiles.
 
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-The following image shows the application's `manifest.json` file:
+If you followed tutorials, include links to those here as well.
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+## License
 
-The following image shows the application's registered service worker:
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+---
 
-The following image shows the application's IndexedDB storage:
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+## :trophy: Badges
 
-## Grading Requirements
+![badmath](https://img.shields.io/github/languages/top/bordanattila/badmath)
+![Repo size badge](https://img.shields.io/github/repo-size/bordanattila/text-editor?color=information)
+[![Bintray](https://img.shields.io/bintray/v/asciidoctor/maven/asciidoctorj.svg?maxAge=2592000)](https://bintray.com/asciidoctor/maven/asciidoctorj)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria:
+[![Bintray](https://img.shields.io/bintray/v/blocke/releases/scalajack.svg?maxAge=3600)](https://bintray.com/blocke/releases/scalajack)
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+[Language % badge](https://img.shields.io/github/languages/top/bordanattila/repo)
 
-  * The application works without an internet connection
+## Features
 
-  * Automatically saves content inside the text editor when the DOM window is unfocused
+If your project has a lot of features, list them here.
 
-  * Bundled with webpack
+## How to Contribute
 
-  * Create a service worker with workbox that Caches static assets
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-  * The application should use babel in order to use async / await
+The technologies that made this possible are:
+* HTML
+* CSS
+* <a href="https://www.javascript.com/" target="_blank">JavaScript</a>
+* <a href="https://nodejs.org/api/fs.html" target="_blank">Node.js</a>
+* <a href="https://expressjs.com/" target="_blank">Express.js</a>
 
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
+## Tests
 
-  * Can be installed as a Progressive Web Application
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Questions
+  [My GitHub Profile](https://github.com/attila)
+  [Heroku](https://)
