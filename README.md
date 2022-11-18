@@ -18,12 +18,12 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 
 To install the application on a device it requires a chromium based browser such as Google Chrome, Microsoft Edge, or Opera. In any of these browsers clicking the `Install` button or the install icon in the address bar will install the application on the device. 
-![Install](./assets/screenshot.png)
+![Install](./Assets/screenshot.png)
 
 ## Usage
 
-![alt text](./assets/screenshot2.png)
-![alt text](./assets/screenshot3.png)
+![alt text](./Assets/screenshot2.png)
+![alt text](./Assets/screenshot3.png)
 
 ## :trophy: Badges
 
