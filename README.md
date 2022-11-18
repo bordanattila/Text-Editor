@@ -22,8 +22,8 @@ To install the applicatioin on a device it requires a chromium based browser suc
 
 ## Usage
 
-![alt text](./assets/images/screenshot.png)
-![alt text](./assets/images/screenshot.png)
+![alt text](./assets/screenshot2.png)
+![alt text](./assets/screenshot3.png)
 
 ## :trophy: Badges
 
