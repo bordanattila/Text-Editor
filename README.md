@@ -12,8 +12,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Links](#links)
+
 
 ## Installation
 
@@ -30,6 +30,6 @@ To install the application on a device it requires a chromium based browser such
 ![badmath](https://img.shields.io/github/languages/top/bordanattila/text-editor)  
 ![Repo size badge](https://img.shields.io/github/repo-size/bordanattila/text-editor?color=information)
 
-## Questions
+## Links
   [My GitHub Profile](https://github.com/attila)  
   [Heroku](https://attilatexteditor-app.herokuapp.com/)
