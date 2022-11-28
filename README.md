@@ -6,7 +6,7 @@ This is just a simple text editor where the user can take notes. the good part o
 This app can help others like me who are trying to sharpen their skills but not always have access to an IDE or when an idea pops up in their head and need to write it down quickly for later use. 
 Building this application helped me to understand the purpose and usage of service workers and manifest. It allowed me to see how an application is turned into a PWA. 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
